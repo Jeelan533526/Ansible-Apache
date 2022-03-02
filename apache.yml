@@ -1,6 +1,6 @@
 ---
   - name: Install Nginx
-    hosts: clints
+    hosts: servers
     tasks: 
 
       - name: Run apt update
